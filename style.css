@@ -27,15 +27,22 @@ h3{
     align-items: center;
     justify-content: center;
     gap: 30px; /* Espaço entre as letras e a imagem */
+   
 }
 
 .sephora-letters h2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     margin: 0;
     text-align: left;
+    width: 500px;
+    height: 700px;
 }
 
 .sephora-letters p {
     margin: 0;
+    font-size: 70px;
 }
 
 #sephora {

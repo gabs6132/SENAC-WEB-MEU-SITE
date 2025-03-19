@@ -1,0 +1,51 @@
+body{
+    background-color: rgb(255, 255, 255);
+
+
+}
+h3{
+    text-align: center;
+}
+
+#imagens{
+    text-align: center;
+   
+}
+
+#imagens a{
+    
+    text-decoration: dashed;
+    color: black;
+}
+
+#img1 {
+    text-align: center;
+}
+
+.sephora-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px; /* Espaço entre as letras e a imagem */
+}
+
+.sephora-letters h2 {
+    margin: 0;
+    text-align: left;
+}
+
+.sephora-letters p {
+    margin: 0;
+}
+
+#sephora {
+    text-align: left;
+}
+
+header{
+    background-color: rgb(255, 255, 255);
+    padding: 10px;
+    text-align: center;
+    border-bottom: 0capsolid black;
+
+}

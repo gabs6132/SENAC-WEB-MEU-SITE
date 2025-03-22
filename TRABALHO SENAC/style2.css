@@ -1,0 +1,378 @@
+/* Estilo para o menu de navegação */
+nav {
+    background-color: #ffffff;
+    /* Define a cor de fundo do elemento*/
+    overflow: hidden;
+    /* Esconde qualquer conteúdo */
+    display: flex;
+    /* Facilita o alinhamento e a distribuição dos itens */
+    justify-content: space-between;
+    /* Alinha os itens dentro do eixo principal (horizontal */
+    /* distribui os itens com o máximo de espaço possível entre eles, deixando o primeiro item alinhado à esquerda e o último à direita.*/
+    align-items: center;
+    /* Alinha os itens no eixo cruzado (vertical)*/
+    /* O valor center centraliza os itens verticalmente dentro do contêiner */
+    padding: 10px 20px;
+    /* 10px: Espaço superior e inferior. 20px: Espaço à esquerda e à direita.*/
+    border: 3px dashed #61a8b6;
+    /* Define a borda */
+    border-radius: 15px;
+    /* Bordas arredondadas (opcional) */
+    justify-content: space-around; /*distribui os itens com espaço igual ao redor de cada item.*/
+}
+
+/*Letras da barra de navegação*/
+nav a {
+    color: rgb(93, 95, 95); /*Define a cor do texto.*/
+    text-decoration: none;/*Remove qualquer decoração do texto*/
+    padding: 14px 20px; /*Adiciona espaço interno ao redor do conteúdo do elemento.
+    14px: Espaço acima e abaixo do conteúdo.
+    80px: Espaço à esquerda e à direita do conteúdo.*/
+    display: inline-block; /*Faz com que o elemento seja exibido como um bloco em linha.*/
+    font-weight: bold; /*Define a fonte como negrito.*/
+    font-family: 'Verdana', sans-serif; /*Define a fonte do texto.*/
+    text-align: center; /*Centraliza o texto horizontalmente.*/
+}
+
+/* A cor de quando passa o mouse na barra de navegação*/
+nav a:hover {
+    background-color: #b7f0ea; /*Define a cor de fundo do elemento.*/
+    border-radius: 4px; /* Arredonda os cantos do elemento.*/
+}
+
+/* Estilo para a barra de pesquisa */
+.search-bar {
+    display: flex; /*Facilita o alinhamento e a distribuição dos itens*/
+    align-items: center; /*Garante que os itens fiquem alinhados no centro*/
+    margin-left: auto; /*alinhar elementos, como uma barra de pesquisa ou um botão, ao lado direito.*/
+    padding: 10px 30px; /*10px: Espaço interno acima e abaixo do conteúdo.
+    30px: Espaço interno à esquerda e à direita do conteúdo.*/
+}
+
+/* PESQUISAR*/
+.search-bar input[type="text"] {
+    padding: 10px; /*o conteúdo não fique colado nas bordas do elemento.*/
+    font-size: 20px; /*Torna o texto maior ou menor, dependendo do valor especificado.*/
+    border: 1px solid #b5e3f2; /*Cria uma borda visível ao redor do elemento.*/
+    border-radius: 4px; /* Arredonda os cantos da borda do elemento.*/
+    outline: none; /*Remove o contorno padrão ao focar no elemento.*/
+}
+
+/* BUSCAR */
+.search-bar button {
+    padding: 8px 12px; /* Adiciona espaço interno ao redor do conteúdo do elemento.*/
+    margin-left: 5px; /*Adiciona um espaço externo de 5 pixels à esquerda do elemento.*/
+    background-color: #2c2727; /* Define a cor de fundo do elemento.*/
+    color: rgb(255, 255, 255); /*O texto dentro do elemento (como o texto de um botão) será exibido na cor.*/
+    border: none; /*O elemento (como um botão) não terá borda visível.*/
+    border-radius: 4px; /*Arredonda os cantos do elemento.*/
+    cursor: pointer; /*Quando o usuário passa o mouse sobre o elemento, o cursor muda para indicar que ele pode ser clicado.*/
+}
+
+/* QUANDO PASSAR O MOUSE NO "BUSCAR"*/
+.search-bar button:hover {
+    background-color: #73e2e1;
+}
+
+
+/* Fontes da letra "SEPHORA"*/
+.sephora-letters p {
+    
+    margin: 0;
+    font-size: 70px;
+    text-align: center;
+    
+}
+
+/* Localizção do nome da marca "SEPHORA" na esquerda*/
+#sephora {
+    text-align: left;
+    margin: 0;
+    
+}
+
+header {
+    background-color: rgb(255, 255, 255);
+    padding: 10px;
+    text-align: center;
+    border-bottom: 0capsolid rgb(197, 186, 186);
+    /*border-bottom: <largura> <estilo> <cor>;*/
+}
+
+/* .sephora-letters*/
+.horizontal-text3{
+    display: flex;
+    /* Organiza os elementos filhos em linha */
+    justify-content: left;
+    /* Centraliza horizontalmente */
+    align-items: center;
+    /* Centraliza verticalmente */
+    gap: 50px;
+    /* Espaçamento entre as letras */
+    margin-top: 2px;
+    /* Espaço a cima da imagem */
+    margin-bottom: 10px;
+    /* Espaço abaixo do título */
+    padding: 20px 10px;
+    font-style: oblique; /* Aplica itálico ao texto */
+    text-shadow: 10px 10px 1px rgb(246, 163, 199); /* Adiciona uma sombra leve */
+}
+
+
+.horizontal-text h1 {
+    display: flex;
+    /* Garante que as letras dentro do <h1> também fiquem em linha */
+    margin: 5;
+    color: #050707; /* Define a cor do texto */
+
+}
+
+.horizontal-text span {
+    font-size: 30px;
+    /* Tamanho da fonte */
+    font-weight: bold;
+    /* Negrito */
+    font-family: "Georgia", serif;
+    /* Fonte */
+}
+.pele{
+    font-size: 15px;
+    font-weight: bold;
+    font-family: "Georgia", serif;
+    color: #ff4ca6;
+    text-align: center;
+    margin-top: 2px;
+    margin-bottom: 10px;
+    padding: 20px 10px;
+    font-style: oblique; /* Aplica itálico ao texto */
+    text-shadow: 8px 6px 5px rgb(255, 197, 231); /* Adiciona uma sombra leve */
+}
+.pele2{
+    font-size: 15px;
+    font-weight: bold;
+    font-family: "Georgia", serif;
+    color: #ff0000;
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    padding: 20px 10px;
+    font-style: oblique; /* Aplica itálico ao texto */
+    text-shadow: 8px 6px 5px rgb(240, 149, 149); /* Adiciona uma sombra leve */
+}
+.pele3{
+    font-size: 15px;
+    font-weight: bold;
+    font-family: "Georgia", serif;
+    color: #8294ed;
+    text-align: center;
+    margin-top: 2px;
+    margin-bottom: 10px;
+    padding: 20px 10px;
+    font-style: oblique; /* Aplica itálico ao texto */
+    text-shadow: 8px 6px 5px rgb(191, 196, 252); /* Adiciona uma sombra leve */
+}
+.pele6{
+    font-size: 15px;
+    font-weight: bold;
+    font-family: "Georgia", serif;
+    color: #e1bc16;
+    text-align: center;
+    margin-top: 2px;
+    margin-bottom: 10px;
+    padding: 20px 10px;
+    font-style: oblique; /* Aplica itálico ao texto */
+    text-shadow: 10px 10px 3px rgb(245, 231, 138); /* Adiciona uma sombra leve */
+}
+.textinhos{
+        margin: 5px auto; /* Adiciona margem ao redor do texto e centraliza */
+        padding: 30px; /* Adiciona espaço interno ao redor do texto */
+        width: 90%; /* Define a largura do texto como 80% da tela */
+        line-height: 1.6; /* Aumenta o espaçamento entre as linhas para melhor leitura */
+        text-align: justify; /* Justifica o texto para alinhar as bordas esquerda e direita */
+        font-family: 'Arial', sans-serif; /* Define a fonte do texto */
+        font-size: 16px; /* Define o tamanho da fonte */
+        color: #333; /* Define a cor do texto */
+        background-color: #f56d6d; /* Adiciona um fundo claro ao texto */
+        border: 1px solid #f5fafb; /* Adiciona uma borda ao redor do texto */
+        border-radius: 8px; /* Arredonda os cantos da borda */
+        box-shadow: 2px 6px 10px rgba(0, 0, 0, 0.1); /* Adiciona uma sombra leve */
+        padding: 20px 70px;
+        /* 10px: Espaço superior e inferior. 20px: Espaço à esquerda e à direita.*/
+}
+.estrutura{
+       text-align: center;
+}
+.textinhos2{
+    margin: 5px auto; /* Adiciona margem ao redor do texto e centraliza */
+    padding: 30px; /* Adiciona espaço interno ao redor do texto */
+    width: 90%; /* Define a largura do texto como 80% da tela */
+    line-height: 1.6; /* Aumenta o espaçamento entre as linhas para melhor leitura */
+    text-align: justify; /* Justifica o texto para alinhar as bordas esquerda e direita */
+    font-family: 'Arial', sans-serif; /* Define a fonte do texto */
+    font-size: 16px; /* Define o tamanho da fonte */
+    color: #333; /* Define a cor do texto */
+    background-color: #f56d6d; /* Adiciona um fundo claro ao texto */
+    border: 1px solid #f5fafb; /* Adiciona uma borda ao redor do texto */
+    border-radius: 8px; /* Arredonda os cantos da borda */
+    box-shadow: 2px 6px 10px rgba(0, 0, 0, 0.1); /* Adiciona uma sombra leve */
+    padding: 20px 70px;
+    /* 10px: Espaço superior e inferior. 20px: Espaço à esquerda e à direita.*/
+}
+.estrutura2{
+   text-align: center;
+}
+.textinhos3{
+    margin: 5px auto; /* Adiciona margem ao redor do texto e centraliza */
+    padding: 30px; /* Adiciona espaço interno ao redor do texto */
+    width: 90%; /* Define a largura do texto como 80% da tela */
+    line-height: 1.6; /* Aumenta o espaçamento entre as linhas para melhor leitura */
+    text-align: justify; /* Justifica o texto para alinhar as bordas esquerda e direita */
+    font-family: 'Arial', sans-serif; /* Define a fonte do texto */
+    font-size: 16px; /* Define o tamanho da fonte */
+    color: #333; /* Define a cor do texto */
+    background-color: #c6d2f9; /* Adiciona um fundo claro ao texto */
+    border: 1px solid #f5fafb; /* Adiciona uma borda ao redor do texto */
+    border-radius: 8px; /* Arredonda os cantos da borda */
+    box-shadow: 2px 6px 10px rgba(0, 0, 0, 0.1); /* Adiciona uma sombra leve */
+    padding: 20px 70px;
+    /* 10px: Espaço superior e inferior. 20px: Espaço à esquerda e à direita.*/
+}
+.estrutura3{
+   text-align: center;
+}
+.textinhos5{
+    margin: 5px auto; /* Adiciona margem ao redor do texto e centraliza */
+    padding: 30px; /* Adiciona espaço interno ao redor do texto */
+    width: 86%; /* Define a largura do texto como 80% da tela */
+    line-height: 1.6; /* Aumenta o espaçamento entre as linhas para melhor leitura */
+    text-align: justify; /* Justifica o texto para alinhar as bordas esquerda e direita */
+    font-family: 'Arial', sans-serif; /* Define a fonte do texto */
+    font-size: 16px; /* Define o tamanho da fonte */
+    color: #333; /* Define a cor do texto */
+    background-color: #efd682; /* Adiciona um fundo claro ao texto */
+    border: 1px solid #f5fafb; /* Adiciona uma borda ao redor do texto */
+    border-radius: 8px; /* Arredonda os cantos da borda */
+    box-shadow: 2px 6px 10px rgba(0, 0, 0, 0.1); /* Adiciona uma sombra leve */
+    padding: 20px 70px;
+    /* 10px: Espaço superior e inferior. 20px: Espaço à esquerda e à direita.*/
+}
+.estrutura5{
+   text-align: center;
+}
+.image-container {
+    display: flex; /* Organiza as imagens horizontalmente */
+    gap: 300px; /* Adiciona 40px de espaço entre as imagens */
+    justify-content: center; /* Centraliza as imagens no contêiner */
+    text-align: center; /* Centraliza o conteúdo dentro do contêiner */
+}
+.produtos {
+    border: 1px solid #ccc; /* Adiciona uma borda às imagens */
+    border-radius: 5px; /* Arredonda os cantos das imagens */
+    width: 80px; /* Define a largura das imagens */
+    height: auto; /* Mantém a proporção das imagens */
+}
+.descrição{
+    font-size: 18px;
+    /* Tamanho da fonte */
+    font-family: "Georgia", serif;
+    /* Fonte */
+    font-weight: normal;
+}
+.nome{
+    font-size: 20px;
+    /* Tamanho da fonte */
+    font-family: "Georgia", serif;
+    /* Fonte */
+}
+/* .sephora-letters*/
+.horizontal-text3{
+    display: flex;
+    /* Organiza os elementos filhos em linha */
+    justify-content: left;
+    /* Centraliza horizontalmente */
+    align-items: center;
+    /* Centraliza verticalmente */
+    gap: 50px;
+    /* Espaçamento entre as letras */
+    margin-top: 2px;
+    /* Espaço a cima da imagem */
+    margin-bottom: 10px;
+    /* Espaço abaixo do título */
+    padding: 20px 10px;
+    font-style: oblique; /* Aplica itálico ao texto */
+    text-shadow: 10px 10px 1px rgb(163, 171, 246); /* Adiciona uma sombra leve */
+}
+/* .sephora-letters*/
+.horizontal-text4{
+    display: flex;
+    /* Organiza os elementos filhos em linha */
+    justify-content: left;
+    /* Centraliza horizontalmente */
+    align-items: center;
+    /* Centraliza verticalmente */
+    gap: 50px;
+    /* Espaçamento entre as letras */
+    margin-top: 2px;
+    /* Espaço a cima da imagem */
+    margin-bottom: 10px;
+    /* Espaço abaixo do título */
+    padding: 20px 10px;
+    font-style: oblique; /* Aplica itálico ao texto */
+    text-shadow: 10px 10px 1px rgb(226, 54, 54); /* Adiciona uma sombra leve */
+}
+/* .sephora-letters*/
+.horizontal-text1{
+    display: flex;
+    /* Organiza os elementos filhos em linha */
+    justify-content: left;
+    /* Centraliza horizontalmente */
+    align-items: center;
+    /* Centraliza verticalmente */
+    gap: 50px;
+    /* Espaçamento entre as letras */
+    margin-top: 2px;
+    /* Espaço a cima da imagem */
+    margin-bottom: 10px;
+    /* Espaço abaixo do título */
+    padding: 20px 10px;
+    font-style: oblique; /* Aplica itálico ao texto */
+    text-shadow: 10px 10px 1px rgb(251, 4, 156); /* Adiciona uma sombra leve */
+}
+.descrição {
+    margin-bottom: 10px; /* Adiciona espaço abaixo do texto */
+}
+
+.image-container {
+    margin-top: 20px; /* Adiciona espaço acima das imagens */
+}
+.nome{
+    margin-bottom: 20px; /* Adiciona espaço abaixo do texto */
+    margin-top: 50px; /* Adiciona espaço acima das imagens */
+}
+/* .sephora-letters*/
+.horizontal-text5{
+    display: flex;
+    /* Organiza os elementos filhos em linha */
+    justify-content: left;
+    /* Centraliza horizontalmente */
+    align-items: center;
+    /* Centraliza verticalmente */
+    gap: 50px;
+    /* Espaçamento entre as letras */
+    margin-top: 2px;
+    /* Espaço a cima da imagem */
+    margin-bottom: 10px;
+    /* Espaço abaixo do título */
+    padding: 20px 10px;
+    font-style: oblique; /* Aplica itálico ao texto */
+    text-shadow: 10px 10px 1px rgb(220, 184, 57); /* Adiciona uma sombra leve */
+}
+img {
+    border: 10px solid #cd952d; /* Adiciona uma borda cinza clara */
+    border-radius: 1px; /* Arredonda os cantos da borda */
+    box-shadow: 20px 10px 10px rgba(0, 0, 0, 0.2); /* Adiciona uma sombra leve */
+}
+.no-border {
+    border: none; /* Remove a borda */
+    box-shadow: none; /* Remove a sombra */
+}

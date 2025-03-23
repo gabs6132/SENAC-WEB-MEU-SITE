@@ -1,0 +1,267 @@
+/* Estilo para o menu de navegação */
+nav {
+    background-color: #ffffff;
+    /* Define a cor de fundo do elemento*/
+    overflow: hidden;
+    /* Esconde qualquer conteúdo */
+    display: flex;
+    /* Facilita o alinhamento e a distribuição dos itens */
+    justify-content: space-between;
+    /* Alinha os itens dentro do eixo principal (horizontal */
+    /* distribui os itens com o máximo de espaço possível entre eles, deixando o primeiro item alinhado à esquerda e o último à direita.*/
+    align-items: center;
+    /* Alinha os itens no eixo cruzado (vertical)*/
+    /* O valor center centraliza os itens verticalmente dentro do contêiner */
+    padding: 10px 20px;
+    /* 10px: Espaço superior e inferior. 20px: Espaço à esquerda e à direita.*/
+    border: 3px dashed #61a8b6;
+    /* Define a borda */
+    border-radius: 15px;
+    /* Bordas arredondadas (opcional) */
+    justify-content: space-around; /*distribui os itens com espaço igual ao redor de cada item.*/
+}
+
+/*Letras da barra de navegação*/
+nav a {
+    color: rgb(93, 95, 95); /*Define a cor do texto.*/
+    text-decoration: none;/*Remove qualquer decoração do texto*/
+    padding: 14px 20px; /*Adiciona espaço interno ao redor do conteúdo do elemento.
+    14px: Espaço acima e abaixo do conteúdo.
+    80px: Espaço à esquerda e à direita do conteúdo.*/
+    display: inline-block; /*Faz com que o elemento seja exibido como um bloco em linha.*/
+    font-weight: bold; /*Define a fonte como negrito.*/
+    font-family: 'Verdana', sans-serif; /*Define a fonte do texto.*/
+    text-align: center; /*Centraliza o texto horizontalmente.*/
+}
+
+/* A cor de quando passa o mouse na barra de navegação*/
+nav a:hover {
+    background-color: #b7f0ea; /*Define a cor de fundo do elemento.*/
+    border-radius: 4px; /* Arredonda os cantos do elemento.*/
+}
+
+/* Estilo para a barra de pesquisa */
+.search-bar {
+    display: flex; /*Facilita o alinhamento e a distribuição dos itens*/
+    align-items: center; /*Garante que os itens fiquem alinhados no centro*/
+    margin-left: auto; /*alinhar elementos, como uma barra de pesquisa ou um botão, ao lado direito.*/
+    padding: 10px 30px; /*10px: Espaço interno acima e abaixo do conteúdo.
+    30px: Espaço interno à esquerda e à direita do conteúdo.*/
+}
+
+/* PESQUISAR*/
+.search-bar input[type="text"] {
+    padding: 10px; /*o conteúdo não fique colado nas bordas do elemento.*/
+    font-size: 20px; /*Torna o texto maior ou menor, dependendo do valor especificado.*/
+    border: 1px solid #b5e3f2; /*Cria uma borda visível ao redor do elemento.*/
+    border-radius: 4px; /* Arredonda os cantos da borda do elemento.*/
+    outline: none; /*Remove o contorno padrão ao focar no elemento.*/
+}
+
+/* BUSCAR */
+.search-bar button {
+    padding: 8px 12px; /* Adiciona espaço interno ao redor do conteúdo do elemento.*/
+    margin-left: 5px; /*Adiciona um espaço externo de 5 pixels à esquerda do elemento.*/
+    background-color: #2c2727; /* Define a cor de fundo do elemento.*/
+    color: rgb(255, 255, 255); /*O texto dentro do elemento (como o texto de um botão) será exibido na cor.*/
+    border: none; /*O elemento (como um botão) não terá borda visível.*/
+    border-radius: 4px; /*Arredonda os cantos do elemento.*/
+    cursor: pointer; /*Quando o usuário passa o mouse sobre o elemento, o cursor muda para indicar que ele pode ser clicado.*/
+}
+
+/* QUANDO PASSAR O MOUSE NO "BUSCAR"*/
+.search-bar button:hover {
+    background-color: #73e2e1;
+}
+
+
+/* Fontes da letra "SEPHORA"*/
+.sephora-letters p {
+
+    margin: 0;
+    font-size: 70px;
+    text-align: center;
+
+}
+
+/* Localizção do nome da marca "SEPHORA" na esquerda*/
+#sephora {
+    text-align: left;
+    margin: 0;
+
+}
+
+header {
+    background-color: rgb(255, 255, 255);
+    padding: 10px;
+    text-align: center;
+    border-bottom: 0capsolid rgb(197, 186, 186);
+    /*border-bottom: <largura> <estilo> <cor>;*/
+}
+/* .sephora-letters*/
+.horizontal-text H1{
+    display: flex;
+    /* Organiza os elementos filhos em linha */
+    justify-content: left;
+    /* Centraliza horizontalmente */
+    align-items: center;
+    /* Centraliza verticalmente */
+    gap: 50px;
+    /* Espaçamento entre as letras */
+    margin-top: 2px;
+    /* Espaço a cima da imagem */
+    margin-bottom: 10px;
+    /* Espaço abaixo do título */
+    padding: 20px 10px;
+    font-style: oblique; /* Aplica itálico ao texto */
+    text-shadow: 10px 10px 1px rgb(139, 223, 233); /* Adiciona uma sombra leve */
+}
+/* .sephora-letters*/
+.horizontal-text {
+
+    display: flex;
+    /* Organiza os elementos filhos em linha */
+    justify-content: left;
+    /* Centraliza horizontalmente */
+    align-items: center;
+    /* Centraliza verticalmente */
+    gap: 50px;
+    /* Espaçamento entre as letras */
+    margin-top: 2px;
+    /* Espaço a cima da imagem */
+    margin-bottom: 10px;
+    /* Espaço abaixo do título */
+    padding: 20px 10px;
+}
+
+.horizontal-text h1 {
+    display: flex;
+    /* Garante que as letras dentro do <h1> também fiquem em linha */
+    margin: 5;
+    color: #050707; /* Define a cor do texto */
+
+}
+
+.horizontal-text span {
+    font-size: 30px;
+    /* Tamanho da fonte */
+    font-weight: bold;
+    /* Negrito */
+    font-family: "Georgia", serif;
+    /* Fonte */
+}
+
+/*<----------------------------------------------------------------------------------------->*/
+
+/* CARROSSEL*/
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.carrossel {
+    width: 1200px;
+    height: 500px;
+    margin: 0 auto;
+    overflow: hidden;
+    /* Esconde as imagens que estão fora da área visível */
+}
+
+.carrossel ul {
+    display: flex;
+    /* imagem uma ao lado da outra*/
+    list-style: none;
+    /* não quero os pontos na lista*/
+    overflow: hidden;
+    /* Esconde as imagens que estão fora da área visível */
+    width: calc(1200*3);
+    /* 3 imagens de 1000px cada*/
+    height: 500px;
+    /* altura da imagem*/
+}
+
+.carrossel li {
+    position: relative; /*Define que o elemento será posicionado relativamente à sua posição normal no fluxo do documento.*/
+    animation: slide 10s infinite ease-out;
+    /*ease-out: Define o tipo de aceleração da animação. O movimento começa rápido e desacelera no final.*/
+}
+
+@keyframes slide {
+
+    0% {left: 0px;}
+
+    20% {left: 0px;}
+
+    30% {left: -1200px;}
+
+    50% {left: -1200px;}
+
+    60% {left: -2400px;}
+
+    90% {left: -2400px;}
+    100% {left: 0px;}
+}
+
+/*<----------------------------------------------------------------------------------------->*/
+
+
+/* HISTÓRIA DA SEPHORA*/
+h1{
+    text-align: center;
+    color: #47adad; /* Define a cor do texto */
+    font-style: oblique; /* Aplica itálico ao texto */
+    text-shadow: 10px 10px 1px rgba(113, 225, 197, 0.3); /* Adiciona uma sombra leve */
+}
+
+
+h3{
+    margin-top: 50px;
+    /* Espaço a cima da imagem */
+    text-align: center;
+    font-size: 30px; /* Define o tamanho da fonte */
+    color: #070807; /* Define a cor do texto */
+}
+
+.titulo1{
+    text-align: center;
+    font-size: 30px;
+}
+
+#sobre{
+    margin: 100px auto; /* Adiciona margem ao redor do texto e centraliza */
+    padding: 10px; /* Adiciona espaço interno ao redor do texto */
+    width: 90%; /* Define a largura do texto como 80% da tela */
+    line-height: 1.6; /* Aumenta o espaçamento entre as linhas para melhor leitura */
+    text-align: justify; /* Justifica o texto para alinhar as bordas esquerda e direita */
+    font-family: 'Arial', sans-serif; /* Define a fonte do texto */
+    font-size: 16px; /* Define o tamanho da fonte */
+    color: #333; /* Define a cor do texto */
+    background-color: #def1f6; /* Adiciona um fundo claro ao texto */
+    border: 1px solid #f5fafb; /* Adiciona uma borda ao redor do texto */
+    border-radius: 8px; /* Arredonda os cantos da borda */
+    box-shadow: 2px 6px 10px rgba(0, 0, 0, 0.1); /* Adiciona uma sombra leve */
+    padding: 40px 50px;
+    /* 10px: Espaço superior e inferior. 20px: Espaço à esquerda e à direita.*/
+}
+
+#frase{
+    margin: 100px auto; /* Adiciona margem ao redor do texto e centraliza */
+    padding: 10px; /* Adiciona espaço interno ao redor do texto */
+    width: 50%; /* Define a largura do texto como 80% da tela */
+    text-align: center;
+    font-size: 23px; /* Define o tamanho da fonte */
+    color: #060808; /* Define a cor do texto */
+    font-style: oblique; /* Aplica itálico ao texto */
+    text-shadow: 10px 10px 1px rgba(113, 225, 197, 0.3); /* Adiciona uma sombra leve */
+}
+.descrição {
+    margin-bottom: 10px; /* Adiciona espaço abaixo do texto */
+}
+
+.image-container {
+    margin-top: 10px; /* Adiciona espaço acima das imagens */
+}
+.nome{
+    margin-bottom: 10px; /* Adiciona espaço abaixo do texto */
+    margin-top: 50px; /* Adiciona espaço acima das imagens */
+}
